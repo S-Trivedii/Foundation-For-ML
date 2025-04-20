@@ -97,7 +97,13 @@ Any vector like (3, 2) can be made like this:
 
 So, (1, 0) and (0, 1) are basis vectors of 2D space.
 
-#### 🔸 Is (1, 0) and (0, 1) are the only two basis vectors?
+---
+
+### 🔸 Is (1, 0) and (0, 1) are the only two basis vectors?
+
+No
+
+**What is a basis vector is ?**
 
 A basis of a vector space is a set of vectors that:
 
@@ -107,12 +113,19 @@ A basis of a vector space is a set of vectors that:
 🔸 **Standard Basis** (The default ones):
 In 2D (ℝ²), the standard basis is:
 
+```bash
 i=(1,0),j​=(0,1)​
 i and j are vectors
+```
 
-Any vector like 𝑣 ⃗ = ( 𝑥 , 𝑦 ) v =(x,y) can be written as:
+Any vector like
+
+```bash
+𝑣 ⃗ = ( 𝑥 , 𝑦 ) v =(x,y) can be written as:
 
 v = x⋅i + y⋅j
+```
+
 ​​
 
 🔸 **But there are infinitely many other valid basis vectors!**
