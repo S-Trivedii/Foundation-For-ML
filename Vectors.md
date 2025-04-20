@@ -78,7 +78,7 @@ You can turn any vector into a unit vector by dividing it by its magnitude.
 
 ---
 
-#### 🧱 What is a Basis Vector?
+### 🧱 What is a Basis Vector?
 
 Think of basis vectors as Lego blocks — you can build any other vector using them.
 
@@ -96,6 +96,47 @@ Any vector like (3, 2) can be made like this:
 ```
 
 So, (1, 0) and (0, 1) are basis vectors of 2D space.
+
+#### Is (1, 0) and (0, 1) are the only two basis vectors?
+
+A basis of a vector space is a set of vectors that:
+
+1. **Are linearly independent**, and
+2. **Can span the entire space** (i.e., you can reach any vector using a combination of them)
+
+🔸 **Standard Basis** (The default ones):
+In 2D (ℝ²), the standard basis is:
+
+i=(1,0),j​=(0,1)​
+i and j are vectors
+
+Any vector like 𝑣 ⃗ = ( 𝑥 , 𝑦 ) v =(x,y) can be written as:
+
+v = x⋅i + y⋅j
+​​
+
+🔸 **But there are infinitely many other valid basis vectors!**
+As long as the two vectors are:
+
+✅ **Not pointing in the same direction** (i.e., linearly independent)
+✅ **Cover the plane** (span ℝ²)
+
+They can be a basis.
+
+#### 🧪 Example of another basis:
+
+(1, 1) and (1, -1)
+
+- Are they linearly independent? ✅ Yes — one is not a scaled version of the other.
+
+- Can you represent any vector using them? ✅ Yes — they span 2D space.
+
+So:
+
+(1,1) and (1,-1)
+form a valid basis
+(1,1) and (1,-1)form a valid basis
+You could represent any 2D vector (like [2, -1]) using a combo of them.
 
 ---
 
