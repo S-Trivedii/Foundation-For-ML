@@ -97,7 +97,7 @@ Any vector like (3, 2) can be made like this:
 
 So, (1, 0) and (0, 1) are basis vectors of 2D space.
 
-#### Is (1, 0) and (0, 1) are the only two basis vectors?
+#### 🔸 Is (1, 0) and (0, 1) are the only two basis vectors?
 
 A basis of a vector space is a set of vectors that:
 
