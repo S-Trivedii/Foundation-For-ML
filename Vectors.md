@@ -1,6 +1,6 @@
 ### 📌 What is a Vector?
 
-A vector is something that has both direction and size (we call the size "magnitude").
+A vector is something that has **both direction and size** (we call the size "magnitude").
 
 You can think of a vector like an arrow:
 
@@ -8,7 +8,7 @@ You can think of a vector like an arrow:
 - It points in a direction.
 - It has a certain length (how long the arrow is).
 
-### 🟢 Example:
+#### 🟢 Example:
 
 Let's say you walk:
 
@@ -26,18 +26,22 @@ This tells us:
 - Go 3 units right (east)
 - Then 2 units up (north)
 
+---
+
 ### ✳️ Components of a Vector
 
-The numbers inside the vector like (3, 2) are called its components:
+The numbers inside the vector like (3, 2) are called its **components**:
 
 - 3 → movement in the x-direction (horizontal)
 - 2 → movement in the y-direction (vertical)
+
+---
 
 ### 📏 What is Magnitude (Length) of a Vector?
 
 The magnitude (or length) of a vector is "how long the arrow is."
 
-Use the Pythagorean theorem to calculate it:
+Use the **Pythagorean theorem** to calculate it:
 
 For vector v = (a, b),
 Magnitude = √(a² + b²)
@@ -46,6 +50,8 @@ Magnitude = √(a² + b²)
 
 For v = (3, 4):
 Magnitude = √(3² + 4²) = √(9 + 16) = √25 = 5
+
+---
 
 ### 🧭 What is Direction?
 
@@ -56,9 +62,11 @@ Example: (1, 0) → points directly right
 
 You can find the angle of a vector (if needed) using trigonometry, but for now just understand it gives you the "which way" info.
 
+---
+
 ### 🎯 What is a Unit Vector?
 
-A unit vector is a vector with length = 1.
+A **unit vector** is a vector with **length = 1**.
 It just shows direction, not size.
 
 #### Example:
@@ -68,37 +76,47 @@ It just shows direction, not size.
 
 You can turn any vector into a unit vector by dividing it by its magnitude.
 
+---
+
 #### 🧱 What is a Basis Vector?
 
 Think of basis vectors as Lego blocks — you can build any other vector using them.
 
 In 2D:
 
-- e₁ = (1, 0) → points right
-- e₂ = (0, 1) → points up
+- **e₁ = (1, 0)** → points right
+- **e₂ = (0, 1)** → points up
 
 Any vector like (3, 2) can be made like this:
 
+```bash
 (3 × e₁) + (2 × e₂)
 = 3 × (1, 0) + 2 × (0, 1)
 = (3, 0) + (0, 2) = (3, 2)
+```
 
 So, (1, 0) and (0, 1) are basis vectors of 2D space.
+
+---
 
 ### 🔄 What is Linear Combination?
 
 A linear combination means you're just adding and scaling vectors.
 
-Example: If v = 2 × (1, 0) + 3 × (0, 1), then:
+#### Example:
+
+If v = 2 × (1, 0) + 3 × (0, 1), then:
 v = (2, 3)
 
 You’re using the basis vectors to build new vectors.
 
+---
+
 ### 🔗 What is Linear Independence?
 
-Vectors are linearly independent if you can’t make one from the others using scaling and adding.
+Vectors are **linearly independent** if **you can’t make one from the others** using scaling and adding.
 
-Example:
+#### Example:
 
 - (1, 0) and (0, 1) → linearly independent ✅
 - (1, 0) and (2, 0) → not independent ❌ (because (2, 0) is just 2 × (1, 0))
